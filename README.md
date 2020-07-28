@@ -2,7 +2,7 @@
 
 This is a spring boot web project which tells if two cities are connected
 
-To start/run the project spring boot maven plugin is included just run `mvn spring-boot:run`
+To start/run the project spring boot maven plugin is included just run `mvn spring-boot:run` or run as java application for class CityNodeApplication.java
 
 Once the application is started,  the api documentation may be found in `localhost:8080/city-node-SpringApp.html`
 
