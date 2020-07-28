@@ -6,7 +6,7 @@ To build the project standard maven build is sufficient `mvn clean install`
 
 To start/run the project spring boot maven plugin is included just run `mvn spring-boot:run`
 
-Once the application is started,  the api documentation may be found in `localhost:8080/city-graph-rest-api-documentation.html`
+Once the application is started,  the api documentation may be found in `localhost:8080/city-node-SpringApp.html`
 
 The integration test may be executed using `mvn test`
 
