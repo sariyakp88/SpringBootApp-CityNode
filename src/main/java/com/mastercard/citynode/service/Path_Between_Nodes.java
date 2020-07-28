@@ -28,6 +28,13 @@ public class Path_Between_Nodes
             map.put(node1, adjacent);
         }
         adjacent.add(node2);
+        adjacent = map.get(node2);
+        if (adjacent == null)
+        {
+            adjacent = new LinkedHashSet();
+            map.put(node2, adjacent);
+        }
+        adjacent.add(node1);
     }
  
     public void addTwoWayVertex(String node1, String node2)
